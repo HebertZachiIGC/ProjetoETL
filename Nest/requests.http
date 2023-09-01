@@ -1,0 +1,31 @@
+### Create a new User
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+  "email": "hebert@igcp.com.br",
+  "password": "12345678"
+}
+
+### Get all
+GET http://localhost:3000/auth/signup
+
+### Get By ID
+GET http://localhost:3000/auth/signup/2
+
+### Update by ID
+PUT http://localhost:3000/auth/signup/2
+Content-type: application/json
+
+{
+  "email": "naoémaisoWILL@igcp.com.br",
+  "password": "Nova_senha"
+}
+
+### Delete By ID
+DELETE  http://localhost:3000/auth/signup/2
+
+
+### Get All target
+
+GET http://localhost:3000/auth/target/
